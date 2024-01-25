@@ -1,0 +1,89 @@
+body {
+  background-color: #ffd3de;
+}
+
+h1 {
+  font-family: "Playpen Sans";
+  text-align: center;
+}
+
+form {
+  padding: 30px;
+  border-radius: 10px 10px 0 0;
+  background-color: #fffafa;
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #ff6dc6;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.explainer {
+  border-style: double;
+  border-color: #5dc0a6;
+  background-color: #fffafa;
+  margin: 30px 50px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.explainer-details {
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+}
+.explainer-icon img {
+  width: 30px;
+  height: auto;
+  float: left;
+  margin-right: 5px;
+}
+.container {
+  margin: 120px;
+  max-width: 600px;
+}
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  border-radius: 10px;
+  width: 80%;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+}
+
+.submit-button {
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #5dc0a6;
+  color: #fffafa;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.generated-poem {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  border-radius: 0 0 10px 10px;
+  background-color: #fffafa;
+  padding: 20px;
+  line-height: 24px;
+  border-left: dotted #5dc0a6;
+}

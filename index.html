@@ -2,49 +2,85 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link href="src/style.css" rel="stylesheet" type="text/css" />
     <title>Haiku Generator</title>
   </head>
   <body>
-    <header><h1>Generate a haiku</h1></header>
-    <main>
-      <div class="explainer">
-        <p><span class="question-mark">?</span> What is a haiku?</p>
-      </div>
+    <div class="container">
+      <header><h1>🌸 Haiku Generator 🌸</h1></header>
+      <main>
+        <div class="explainer">
+          <p>
+            <span>
+              <p class="explainer-details">
+                <span class="explainer-icon"
+                  ><img
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/112/187/original/question-mark.png?1706216345"
+                    alt="" /></span
+                >A haiku is a traditional form of Japanese poetry. The structure
+                typically follows a 5-syllable line, then a 7-syllable line, and
+                finally another 5-syllable line. Haikus often capture a moment
+                in nature, evoke emotion, or highlight the beauty in simplicity.
+                They aim to convey a vivid image or feeling in a concise and
+                contemplative manner.
+              </p></span
+            >
+          </p>
+        </div>
 
-      <form>
-        <input
-          type="text"
-          placeholder="What should the haiku be about?"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        My life, - <br />
-        How much more of it remains?
-        <br />
-        The night is brief.
-        <br />
-        - Masaoka Shiki
-      </div>
-    </main>
-    <footer>
-      This was coded by
-      <a href="https://github.com/jkdcode " target="_blank">Julie Didriksen</a>.
-      It is open-sourced on
-      <a href="https://github.com/jkdcode/AI-Generator" target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://julies-ai-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+        <form>
+          <input
+            type="text"
+            placeholder="What is your haiku about?"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" value="Generate" class="submit-button" />
+        </form>
+        <div class="generated-poem">
+          My life, - <br />
+          How much more of it remains?
+          <br />
+          The night is brief.
+          <br />
+          - Masaoka Shiki
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/jkdcode " target="_blank"
+          >Julie Didriksen</a
+        >
+        while listening to
+        <a
+          href="https://open.spotify.com/playlist/0MhYCZmziiiluTo5ROdRqp?si=d21da9bb676344f3"
+          >this playlist</a
+        >. <br />It is open-sourced on
+        <a href="https://github.com/jkdcode/AI-Generator" target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://julies-ai-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
