@@ -4,12 +4,35 @@
     <meta charset="UTF-8" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link href="src/style.css" rel="stylesheet" type="text/css" />
     <title>Haiku Generator</title>
   </head>
   <body>
-    <h1>Generate a haiku</h1>
+    <header><h1>Generate a haiku</h1></header>
+    <main>
+      <div class="explainer">
+        <p><span class="question-mark">?</span> What is a haiku?</p>
+      </div>
 
+      <form>
+        <input
+          type="text"
+          placeholder="What should the haiku be about?"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" />
+      </form>
+      <div>
+        My life, - <br />
+        How much more of it remains?
+        <br />
+        The night is brief.
+        <br />
+        - Masaoka Shiki
+      </div>
+    </main>
     <footer>
       This was coded by
       <a href="https://github.com/jkdcode " target="_blank">Julie Didriksen</a>.
