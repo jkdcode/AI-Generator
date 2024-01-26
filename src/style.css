@@ -91,6 +91,7 @@ a:hover {
 
 .generated-poem {
   font-size: 16px;
+  text-align: center;
   font-family: "Raleway", sans-serif;
   border-radius: 0 0 10px 10px;
   background-color: #fffafa;
