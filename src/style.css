@@ -21,6 +21,10 @@ footer {
   font-family: "Raleway", sans-serif;
 }
 
+i {
+  color: #5dc0a6;
+}
+
 a {
   font-weight: bold;
   text-decoration: none;
